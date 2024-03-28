@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    background-color: rgb(175, 177, 255);
+    height: 100px;
+    padding-left: 71px;
+}
+
+.linha-divisoria{
+    margin-left: 20px;
+}
+
+.logo-mani-cursos{
+    background-color: rgb(175, 177, 255);
+    cursor: pointer;
+    border: none;
+}
+
+.botao-navbar {
+    padding: 8px 16px;
+    background-color: rgb(175, 177, 255);
+    cursor: pointer;
+    border: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    letter-spacing: 0.075em;
+    text-align: left;
+}
+
+

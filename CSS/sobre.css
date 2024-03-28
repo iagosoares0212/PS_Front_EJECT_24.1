@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 100px;
+    padding-left: 71px;
+}
+
+.linha-divisoria{
+    margin-left: 20px;
+}
+
+.logo-mani-cursos{
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.ancora-navbar {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    font-family: Montserrat;
+    letter-spacing: 0.075em;
+    text-decoration: none;
+    color: #262626;
+}
+
+.parte2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-left: 71px;
+}
+
+.lado-esquerdo2 {
+    border-radius: 35px 0px 0px 0px;
+    opacity: 0px; 
+}
+
+.lado-direito2 {
+    background-color: grey;
+}
+
+h1 {
+    font-family: DM Sans;
+    font-size: 48px;
+    line-height: 62.5px;
+    height: 58px;
+    width: 334px;
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-color: #F97B22;
+}
+
+p {
+    padding-top: 29px;
+    
+}
+
+.parte3{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-left: 71px;
+}
+

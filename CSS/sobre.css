@@ -35,8 +35,6 @@
 
 .parte2{
     display:flex;
-    align-items: center;
-    justify-content: center;
     padding-top: 60px;
     padding-left: 71px;
 }
@@ -47,7 +45,8 @@
 }
 
 .lado-direito2 {
-    background-color: grey;
+    padding-left: 40px;
+    padding-bottom: 106px;
 }
 
 h1 {
@@ -65,13 +64,15 @@ span {
 
 p {
     padding-top: 29px;
-    
 }
 
 .parte3{
-    display:flex;
-    justify-content: space-between;
+    display: flex;
     padding-top: 90px;
     padding-left: 71px;
+}
+
+.foto-pessoas3{
+    padding-left: 20px;
 }
 

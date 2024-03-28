@@ -1,55 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.navbar{
+main {
     display: flex;
-    column-gap: 20px;
-    align-items: center;
-    background-color: #FFFFFF;
-    height: 100px;
-    padding-left: 71px;
+    flex-direction: column;
+    gap: 130px;
 }
 
-.linha-divisoria{
-    margin-left: 20px;
+#secoes-lado-a-lado {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
 }
 
-.logo-mani-cursos{
-    background-color: #FFFFFF;
-    cursor: pointer;
-    border: none;
+.secao-lado-a-lado {
+    display: flex;
+    gap: 40px;
 }
 
-.ancora-navbar {
-    padding: 8px 16px;
-    cursor: pointer;
-    border: none;
-    font-family: Montserrat;
-    letter-spacing: 0.075em;
-    text-decoration: none;
-    color: #262626;
+.secao-lado-a-lado img {
+    max-width: 655px;
 }
 
-.parte2{
-    display:flex;
-    padding-top: 60px;
-    padding-left: 71px;
+.secao-lado-a-lado div {
+    max-width: 536px;
 }
 
-.lado-esquerdo2 {
-    border-radius: 35px 0px 0px 0px;
-    opacity: 0px; 
-}
-
-.lado-direito2 {
-    padding-left: 40px;
-    padding-bottom: 106px;
-}
-
-h1 {
+.secao-lado-a-lado h1 {
     font-family: DM Sans;
     font-size: 48px;
     line-height: 62.5px;
@@ -57,22 +31,52 @@ h1 {
     width: 334px;
 }
 
-span {
-    text-decoration: underline;
+.secao-lado-a-lado h1 span {
+    font-family: DM Sans;
+    font-size: 48px;
+    line-height: 62.5px;
+    height: 58px;
+    width: 334px;
+    text-decoration: underline; 
     text-decoration-color: #F97B22;
 }
 
-p {
-    padding-top: 29px;
+.secao-lado-a-lado p {
+    margin-top: 30px;
+    font-size: 18px;
 }
 
-.parte3{
-    display: flex;
-    padding-top: 90px;
-    padding-left: 71px;
+#secao-melhores-professores {
+    height: 580px;
+    background-color: black;
+    border-radius: 35px;
+    padding-top: 110px;
+    padding-left: 84px;
+    color: white;
+
+    background-image: url('../IMG/Rectangle 604.png');
+    background-size: cover;
+    background-position: center;
 }
 
-.foto-pessoas3{
-    padding-left: 20px;
+#secao-melhores-professores div {
+    max-width: 750px; 
 }
 
+#secao-melhores-professores div h1 {
+    font-family: DM Sans;
+    weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+
+}
+
+
+#secao-melhores-professores div h1 span {
+    font-family: DM Sans;
+    weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    text-decoration: underline; 
+    text-decoration-color: #F97B22;
+}

@@ -40,6 +40,10 @@ h1 {
 .italic {
     font-style: italic;
 }
+.headline_interactive {
+    width: 60%;
+    border: 1px solid blueviolet;
+}
 button.headline_button {
     position: relative;
     z-index: 1;
@@ -63,4 +67,59 @@ button.headline_button {
 }
 .headline_button:hover .button_circle {
     width: 226px;
+}
+.button_arrow {
+    position: absolute;
+    width: 14px;
+    height:14px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: rotate(45deg);
+    top: 15px;
+    left: 10px;
+    transition: .5s;
+    z-index: 3;
+}
+.img_headline1 {
+    position: absolute;
+    left: 305px;
+    cursor: pointer;
+}
+.img_headline2 {
+    position:absolute;
+    left: 335px;
+    cursor: pointer;
+}
+.img_headline3 {
+    position: absolute;
+    left: 364px;
+    cursor: pointer;
+}
+.plus {
+    position: absolute;
+    left: 30%;
+    top: 61%;
+    height: 25px;
+    width: 25px;
+    background: #F97B22;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.Line  {
+    position: absolute;
+    bottom: 9.5px;
+    right: 3.5px;
+    font-size: 30px;
+    font-weight: 700;
+    width: 0 auto;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+}
+.text_ident {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 9.7px;
+    text-align: center;
 }

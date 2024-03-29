@@ -10,14 +10,14 @@
 body {
     padding-left: 71px;
     padding-right: 71px;
-    display: flex;
-    justify-content: center;
+    
 }
- 
+ /*
 #wrapper {
     max-width: 1440px;
+    margin: 0 auto; 
 }
-
+*/
 .navbar{
     display: flex;
     column-gap: 20px;

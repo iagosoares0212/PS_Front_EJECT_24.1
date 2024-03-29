@@ -3,37 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.navbar{
+body {
+    background: #FFF url(../IMG/bolas.svg) no-repeat;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid blue;
+}
+header {
     display: flex;
-    column-gap: 20px;
-    align-items: center;
-    background-color: rgb(175, 177, 255);
     height: 100px;
-    padding-left: 71px;
+    width: 70%;
+    margin-left: 5.2%;
+    border: 1px solid red;
 }
-
-.linha-divisoria{
-    margin-left: 20px;
+.img_logo {
+    margin-top: 25px;
+    border: 1px solid yellowgreen;
 }
-
-.logo-mani-cursos{
-    background-color: rgb(175, 177, 255);
-    cursor: pointer;
-    border: none;
+.linha_topo {
+    margin: 0 12px;
 }
-
-.botao-navbar {
-    padding: 8px 16px;
-    background-color: rgb(175, 177, 255);
-    cursor: pointer;
-    border: none;
-    font-family: Montserrat;
+a:link,
+a:visited,
+a:active {
+    color: #5D5E59;
+    font-weight: 400;
+}
+a:hover {
+    color: #FFCDAC;
+    background: #FF7000;
+    padding: 2px;
+}
+nav ul {
+    float: right;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a:link{
+    display: block;
+    margin: 35px 10px 1px 15px;
+    line-height: 19.5px;
+    text-decoration: none;
+    text-transform: uppercase;
     font-size: 16px;
     font-weight: 400;
-    line-height: 19.5px;
-    letter-spacing: 0.075em;
-    text-align: left;
 }
-
-
+.clicar {
+    cursor: pointer;
+}

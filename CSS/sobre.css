@@ -48,12 +48,10 @@ main {
 
 #secao-melhores-professores {
     height: 580px;
-    background-color: black;
     border-radius: 35px;
     padding-top: 110px;
     padding-left: 84px;
     color: white;
-
     background-image: url('../IMG/Rectangle 604.png');
     background-size: cover;
     background-position: center;
@@ -68,9 +66,7 @@ main {
     weight: 700;
     font-size: 64px;
     line-height: 80px;
-
 }
-
 
 #secao-melhores-professores div h1 span {
     font-family: DM Sans;
@@ -80,3 +76,126 @@ main {
     text-decoration: underline; 
     text-decoration-color: #F97B22;
 }
+
+#secao-melhores-professores div button {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F97B22;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 184.35px;
+    height: 40px;
+    outline: none;
+    /*Ajeitar a borda preta do botão*/
+}
+
+#secao-melhores-professores div button span {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.075em;
+    text-align: left;
+    color: #FFFF;
+    width: 126px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#secao-melhores-professores div p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+#secao-nossa-equipe {
+    padding-top: 59px;
+    background-color: #F97B22;
+    width: 1440px;
+    height: 803px;
+    gap: 0px;
+    border-radius: 300px 300px 0px 0px;
+    opacity: 0px;
+}
+
+#nossa-equipe-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#secao-nossa-equipe h1 {
+    width: 426px;
+    height: 71.95px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73.14px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#secao-nossa-equipe p{
+    padding-top: 29.57px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#professores {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.professor h3{
+    width: 160px;
+    height: 22px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: white;
+}
+
+h5 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color:#FFFFFF;
+    margin-top: 5px;
+}
+
+.textinho {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+

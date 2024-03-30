@@ -9,18 +9,17 @@ body {
 .container {
     width: 100%;
     margin: 0 auto;
-    border: 1px solid blue;
 }
 header {
     display: flex;
     height: 100px;
     width: 70%;
     margin-left: 5.2%;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 .img_logo {
     margin-top: 25px;
-    border: 1px solid yellowgreen;
+    /*border: 1px solid yellowgreen;*/
 }
 .linha_topo {
     margin: 0 12px;

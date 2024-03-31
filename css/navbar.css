@@ -10,7 +10,8 @@
 
  
 #wrapper {
-    max-width: 1440px;
+    /*max-width: 1440px;*/
+    margin: 0 auto; 
 }
 
 .navbar{
@@ -20,9 +21,8 @@
     background-color: #FFFFFF;
     height: 100px;
     margin-bottom:60px;
+    margin-left: 5.2%;
 }
-
-
 
 .linha-divisoria{
     margin-left: 20px;
@@ -42,7 +42,5 @@
     font-family: Montserrat;
     letter-spacing: 0.075em;
     text-decoration: none;
-    color: #262626; 
+    color: #262626;
 }
-
-

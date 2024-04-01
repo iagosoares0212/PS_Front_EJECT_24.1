@@ -10,11 +10,9 @@
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
- 
-#wrapper {
-    max-width: 1440px;
-}
+
 
 .navbar{
     display: flex;

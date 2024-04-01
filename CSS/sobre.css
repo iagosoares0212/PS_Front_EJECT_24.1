@@ -90,7 +90,6 @@ main {
     outline: none;
     border: none;
     text-decoration: none; 
-    /*Ajeitar a borda preta do botão*/
 }
 
 #secao-melhores-professores div a:focus{

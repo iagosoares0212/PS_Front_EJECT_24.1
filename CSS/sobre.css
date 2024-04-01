@@ -92,11 +92,6 @@ main {
     text-decoration: none; 
 }
 
-#secao-melhores-professores div a:focus{
-    border: ;
-}
-
-
 #secao-melhores-professores div a span {
     font-family: DM Sans;
     font-size: 15px;

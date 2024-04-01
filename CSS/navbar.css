@@ -8,8 +8,6 @@
 }
 
 body {
-    padding-left: 71px;
-    padding-right: 71px;
     display: flex;
     justify-content: center;
 }

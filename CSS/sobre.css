@@ -8,6 +8,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 90px;
+    padding-left: 71px;
+    padding-right: 150px;
 }
 
 .secao-lado-a-lado {
@@ -51,21 +53,25 @@ main {
     border-radius: 35px;
     padding-top: 110px;
     padding-left: 84px;
+    padding-right: 50px;
     color: white;
     background-image: url('../IMG/Rectangle 604.png');
     background-size: cover;
     background-position: center;
+    margin-left: 71px;
+    margin-right: 96px;
 }
 
 #secao-melhores-professores div {
-    max-width: 750px; 
+    width: 1273px;
 }
 
 #secao-melhores-professores div h1 {
     font-family: DM Sans;
-    weight: 700;
+    font-weight: 700px;
     font-size: 64px;
     line-height: 80px;
+    width: 59%;
 }
 
 #secao-melhores-professores div h1 span {
@@ -158,7 +164,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 45px;
+    gap: 1rem;
     margin-left:25px;
 }
 
@@ -193,6 +199,11 @@ h5 {
     margin-top: 30px;
 }
 
+/* 
+    -A barra horizontal do eixo x ao clicar em inspencionar deve desaparecer (Talvez mechendo com resposividade isso ajeite)
+    - Ajeitar responsividade
+    - Criar um slider 
+*/
 
 
 

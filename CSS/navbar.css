@@ -20,7 +20,9 @@ body {
     align-items: center;
     background-color: #FFFFFF;
     height: 100px;
+    width: 1382px;
     margin-bottom:60px;
+    margin-left: 80px;
 }
 
 .linha-divisoria{

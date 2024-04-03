@@ -99,23 +99,23 @@ main {
     background-color: #ffffff;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked ~ .slide-first{
     margin-left: 0;
 }
 
-#radio2:checked ~ .first{
+#radio2:checked ~ .slide-first{
     margin-left: -20%;
 }
 
-#radio3:checked ~ .first{
+#radio3:checked ~ .slide-first{
     margin-left: -40%;
 }
 
-#radio4:checked ~ .first{
+#radio4:checked ~ .slide-first{
     margin-left: -60%;
 }
 
-#radio5:checked ~ .first{
+#radio5:checked ~ .slide-first{
     margin-left: -80%;
 }
 

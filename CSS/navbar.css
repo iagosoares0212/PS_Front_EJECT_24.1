@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   body {
-    background: #FFF ;
+    background: #FFF url(../IMG/bolas.svg) no-repeat;
     
   }
   .container {
@@ -132,7 +132,7 @@
     .menu_barra.ativo nav {
         display: block;
         width: 53vw;
-        height: 100vh;
+        height: 1000px;
     }
   
     .menu_barra.ativo .hamburger {

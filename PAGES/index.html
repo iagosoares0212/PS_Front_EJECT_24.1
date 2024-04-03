@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../CSS/headline.css">
     <link rel="stylesheet" href="../CSS/fotos_esquerda.css">
     <link rel="stylesheet" href="../CSS/cursos_populares.css">
+    <link rel="stylesheet" href="../CSS/carrossel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,8 +63,23 @@
         </div> <!--FIMda headline-->
         <div class="cursos_pop"> <!--INICIO "cursos mais populares"-->
             <h2>Cursos mais <span class="underline">populares</span> </h2>
-            
+                <div class="carrosel">
+                    <button class="right controle" aria-label="imagem_anterior">◀</button>
+                    <button class="left controle" aria-label="imagem_avançar">▶</button>
+                    <div class="galeria-wrapper">
+                        <div class="galeria">
+                            <img src="../IMG/slider cursos pop/Rectangle 604 (1).svg" class="item current_item">
+                            <img src="../IMG/slider cursos pop/Rectangle 604.png" class="item">
+                            <img src="../IMG/slider cursos pop/Rectangle 604.svg" class="item">
+                            <img src="../IMG/slider cursos pop/Rectangle 604.svg" class="item">
+                            <img src="../IMG/slider cursos pop/Rectangle 604.svg" class="item">
+                        </div>
+                    </div>
+                </div>            
         </div> <!--FIM "cursos mais populares"-->
     </div> <!--FIM CONTAINER-->
+    <script src="navbar.js"></script>
+    <script src="carrosel.js"></script>
+    <script src="slider.js"></script>
 </body>
 </html>

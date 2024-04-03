@@ -7,6 +7,7 @@
     position: absolute;
     top: 1068px;
     margin: 5.2%;
+    width: 93.5%;
     border: 1px solid red;
 }
 h2 {
@@ -15,3 +16,51 @@ h2 {
     font-weight: 700;
     line-height: 41px;
 }
+.carrossel {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+.galeria {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+
+}
+.galeria-wrapper {
+    overflow-x: auto;
+}
+.right,
+.left {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: transparent;
+}
+.right {
+    position: absolute;
+    top: 0;
+    right: 2.1%;
+    left: auto;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: transparent;
+}
+.item {
+    height: 250px;
+    width: 250px;
+    flex-shrink: 0;
+}
+.galeria-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  .galeria-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+  }

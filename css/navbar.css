@@ -8,12 +8,6 @@
 }
 
 
- 
-#wrapper {
-    /*max-width: 1440px;*/
-    margin: 0 auto; 
-}
-
 .navbar{
     display: flex;
     column-gap: 20px;

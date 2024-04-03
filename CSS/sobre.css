@@ -68,8 +68,10 @@ main {
     position: relative;
 }
 
-.slide img{
+.slide img {
     width: 655px;
+    height: 297px;
+    object-fit: cover;
 }
 
 .manual-navigation{

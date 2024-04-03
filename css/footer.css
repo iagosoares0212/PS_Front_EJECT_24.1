@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
 }
@@ -7,13 +8,12 @@ footer {
     padding: 20px;
     
     bottom: 0;
-    left: 0; 
-    max-width: 1440px;
     padding-left: 5.2%;
     padding-right: 5.2%;
     
      
 }
+
 .footer-area {
     margin-top: 25px;
 }

@@ -55,7 +55,7 @@ main {
 }
 
 .slides{
-    width: 400%;
+    width: 500%;
     display: flex;
 }
 
@@ -72,6 +72,7 @@ main {
     width: 655px;
     height: 297px;
     object-fit: cover;
+    border-radius: 30px;
 }
 
 .manual-navigation{

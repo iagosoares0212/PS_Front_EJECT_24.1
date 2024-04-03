@@ -50,8 +50,8 @@ main {
 
 .slider{
     margin: 0 71px;
-    width: 655px;
     overflow:hidden;
+    width: 655px;
 }
 
 .slides{
@@ -64,7 +64,7 @@ main {
 }
 
 .slide{
-    width: 25%;
+    width: 20%;
     position: relative;
 }
 
@@ -93,7 +93,7 @@ main {
 }
 
 .manual-btn:hover{
-    background-color: #FFFF;
+    background-color: #ffffff;
 }
 
 #radio1:checked ~ .first{

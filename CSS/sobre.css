@@ -148,10 +148,6 @@ main {
     margin-right: 96px;
 }
 
-#secao-melhores-professores div {
-    width: 1273px;
-}
-
 #secao-melhores-professores div h1 {
     font-family: DM Sans;
     font-weight: 700px;
@@ -286,7 +282,6 @@ h5 {
 }
 
 /* 
-    -A barra horizontal do eixo x ao clicar em inspencionar deve desaparecer (Talvez mechendo com resposividade isso ajeite)
     - Ajeitar responsividade
     - Criar um slider 
 */

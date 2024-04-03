@@ -244,10 +244,8 @@ main {
 #professores {
     margin-top: 90px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-left:25px;
+    gap: 10px;
+    margin-left: 20px;
 }
 
 .professor h3{
@@ -281,6 +279,9 @@ h5 {
     margin-top: 30px;
 }
 
+@media screen and (max-width:768px) {
+
+}
 /* 
     - Ajeitar responsividade
     - Criar um slider 

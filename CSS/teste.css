@@ -9,7 +9,62 @@ h1 {
   margin: 1em 0;
   font-family: sans-serif;
 }
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.nota_texto {
+  
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  line-height: 14.63px;
+  margin-left: 1%; 
+}
+.estrela {
+  margin-left: 8%;
+}
+.descriçao_vaga {
+  font-family: Montserrat, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 2%;
+  color: black;
+}
+.texto_vaga {
+  font-family: DM sans, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.23px;
+  margin-top: 2%;
+  color: #787878;
+}
 
+.preço {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-top: 16%;
+}
+.preço2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.button_compra {
+  float: right;
+  background: #F97B22;
+  color: #fff;
+  font-weight: 700;
+  width: 107px;
+  height: 40px;
+  border: transparent;
+  border-radius: 90px;
+}
 .container {
   position: relative;
   padding: 15px;
@@ -56,13 +111,12 @@ h1 {
 }
 
 .item {
-  width: 250px;
-  height: 250px;
+  width: 355px;
+  height: 500px;
   flex-shrink: 0;
   transition: all 600ms ease-in-out;
   opacity: 0.5;
 }
-
 .current-item {
   opacity: 1;
 }
@@ -72,19 +126,4 @@ h1 {
 .gallery-wrapper {
   -ms-overflow-style: none; 
   scrollbar-width: none; 
-}
-.cyan {
-  background: cyan;
-}
-.deeppink {
-  background: deeppink;
-}
-.turquoise {
-  background: turquoise;
-}
-.darkblue {
-  background: darkblue;
-}
-.purple {
-  background: purple;
 }

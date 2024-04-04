@@ -10,7 +10,7 @@ main {
     width: 82%;
 }
 
- .texto-slider h1 {
+.texto-slider h1 {
     font-family: DM Sans;
     font-size: 48px;
     line-height: 62.5px;
@@ -73,7 +73,6 @@ main {
     cursor: pointer;
     transition: 1s;
 }
-
 
 .manual-btn:not(:last-child){
     margin-right: 20px;
@@ -147,6 +146,30 @@ main {
     margin-left: 71px;
     width: 100%;
 }
+
+.texto-slider2 h1 {
+    font-family: DM Sans;
+    font-size: 48px;
+    line-height: 62.5px;
+    height: 58px;
+    width: 334px;
+}
+
+.texto-slider2 h1 span {
+    font-family: DM Sans;
+    font-size: 48px;
+    line-height: 62.5px;
+    height: 58px;
+    width: 334px;
+    text-decoration: underline; 
+    text-decoration-color: #F97B22;
+}
+
+.texto-slider2 p {
+    margin-top: 30px;
+    font-size: 18px;
+} 
+
 
 #secao-melhores-professores {
     height: 580px;

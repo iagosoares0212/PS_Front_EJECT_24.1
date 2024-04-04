@@ -3,6 +3,11 @@
         width: 100%;
     }
 
+    .informacoes{
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
     .imagem {
         width: 100%;
         display: flex;
@@ -10,7 +15,7 @@
     }
 
    .lg{
-    width: 2%;
+    width: 2.5%;
     height: auto;
    }
 

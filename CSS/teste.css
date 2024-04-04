@@ -3,13 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-h1 {
+h2 {
+  font-family: DM sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 41px;
+  margin-left: 1%;
+} 
+h3 {
   text-align: center;
   margin: 1em 0;
   font-family: sans-serif;
 }
-h3 {
+h4 {
   font-family: Montserrat, sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -65,14 +71,14 @@ h3 {
   border: transparent;
   border-radius: 90px;
 }
-.container {
+.carrossel {
   position: relative;
   padding: 15px;
   max-width: 640px;
   margin: 0 auto;
 }
 
-.gallery-wrapper {
+.galeria-wrapper {
   overflow-x: auto;
 }
 
@@ -84,14 +90,15 @@ h3 {
   left: auto;
   width: 24px;
   height: 24px;
-  border: 1px solid black;
+  border: none;
   border-radius: 50px;
   background: transparent;
 }
 
 .left:hover,
 .right:hover {
-  opacity: 1;
+  border: 1px solid black;
+  border-radius: 50px;
 }
 
 .left {
@@ -99,12 +106,11 @@ h3 {
   top: 0;
   right: 2.1%;
   left: auto;
-  border: 1px solid black;
   border-radius: 50px;
   background: transparent;
 }
 
-.gallery {
+.galeria {
   display: flex;
   flex-flow: row nowrap;
   gap: 15px;
@@ -120,10 +126,10 @@ h3 {
 .current-item {
   opacity: 1;
 }
-.gallery-wrapper::-webkit-scrollbar {
+.galeria-wrapper::-webkit-scrollbar {
   display: none;
 }
-.gallery-wrapper {
+.galeria-wrapper {
   -ms-overflow-style: none; 
   scrollbar-width: none; 
 }

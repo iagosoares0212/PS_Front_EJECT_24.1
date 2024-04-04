@@ -15,7 +15,8 @@ header {
   display: flex;
   height: 100px;
   width: 70%;
-  margin-left: 2.2%;
+  padding: 0 15px 0 30px;
+ 
 
 }
 .img_logo {
@@ -92,6 +93,7 @@ nav ul li a:link{
       display: flex;
       height: 100px;
       width: 100%;
+      padding: 0 15px 0 18px;
   }
   
   nav {

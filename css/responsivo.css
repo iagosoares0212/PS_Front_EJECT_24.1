@@ -1,6 +1,7 @@
 @media screen and (max-width: 800px) {
     .home {
         width: 100%;
+        padding: 0 15px 0 15px;
     }
 
     .informacoes{
@@ -37,10 +38,7 @@
     #img2{
         height: 125px;
         width: 100%;
-    }
-
-    body {
-        padding: 0 15px 0 15px;
+        margin-bottom: 2%;
     }
 
     .texto {

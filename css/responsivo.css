@@ -68,44 +68,7 @@
     p{
         font-size: 95%;
     }
+}
 
 
-
-    /* NAVBAR */
-
-    .navbar-direita, .linha-divisoria {
-        display: none;
-
-    }
-    .navbar{
-        margin-bottom: 10px;
-
-    }
-
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        margin-bottom: 20px;
-       
-
-    }
-
-    svg {
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        left: 0;
-    }
     
-}
-
-/* DESKTOP */
-
-@media screen and (min-width: 800px) {
-    svg {
-        display: none;
-    }
-}
-

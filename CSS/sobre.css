@@ -101,7 +101,7 @@ main {
     margin-left: -80%;
 }
 
-.navigation-auto div{
+/* .navigation-auto div{
     border: 2px solid blue;
     padding: 5px;
     border-radius: 10px;
@@ -114,7 +114,7 @@ main {
     width: 655px;
     display: flex;
     justify-content: center;
-}
+}  */
 
 .navigation-auto div:not(:last-child){
     margin-right: 20px;

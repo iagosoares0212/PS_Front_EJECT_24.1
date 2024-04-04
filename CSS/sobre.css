@@ -102,8 +102,8 @@ main {
     margin-left: -80%;
 }
 
-/* .navigation-auto div{
-    border: 2px solid blue;
+.navigation-auto div{
+    border: 2px solid white;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -115,7 +115,7 @@ main {
     width: 655px;
     display: flex;
     justify-content: center;
-}  */
+}  
 
 .navigation-auto div:not(:last-child){
     margin-right: 20px;
@@ -169,6 +169,10 @@ main {
     margin-top: 30px;
     font-size: 18px;
 } 
+
+.slider2{
+    margin
+}
 
 
 #secao-melhores-professores {

@@ -51,7 +51,7 @@ main {
     position: relative;
 }
 
-.slide img {
+.slide img{
     width: 655px;
     height: 297px;
     object-fit: cover;
@@ -194,6 +194,92 @@ main {
     object-fit:cover;
     border-radius:30px;
 }
+
+.manual-navigation2{
+    position: absolute;
+    width: 655px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn2{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn2:not(:last-child){
+    margin-right: 20px;
+}
+
+.manual-btn2:hover{
+    background-color: #FFFFFF;
+}
+
+#radio6:checked ~ .slide-first2{
+    margin-left: 0;
+}
+
+#radio7:checked ~ .slide-first2{
+    margin-left: -20%;
+}
+
+#radio8:checked ~ .slide-first2{
+    margin-left: -40%;
+}
+
+#radio9:checked ~ .slide-first2{
+    margin-left: -60%;
+}
+
+#radio10:checked ~ .slide-first2{
+    margin-left: -80%;
+}
+
+.navigation-auto2 div{
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto2{
+    position: absolute;
+    width: 655px;
+    margin-top: 261px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto2 div:not(:last-child){
+    margin-right: 20px;
+}
+
+#radio6:checked ~ .navigation-auto2 .auto-btn6{
+    background-color: #FFFFFF;
+}
+
+#radio7:checked ~ .navigation-auto2 .auto-btn7{
+    background-color: #FFFFFF;
+}
+
+#radio8:checked ~ .navigation-auto2 .auto-btn8{
+    background-color: #FFFFFF;
+}
+
+#radio9:checked ~ .navigation-auto2 .auto-btn9{
+    background-color: #FFFFFF;
+}
+
+#radio10:checked ~ .navigation-auto2 .auto-btn10{
+    background-color: #FFFFFF;
+}
+
+
 
 #secao-melhores-professores {
     height: 580px;

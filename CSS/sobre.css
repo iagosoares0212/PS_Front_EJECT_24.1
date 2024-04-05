@@ -450,15 +450,13 @@ h5 {
     padding-right: 21px;
 }
 
-@media screen and (max-width:768px) {
-    .professor{
-        width: 10vw;
+@media screen and (max-width:768px){
+    .texto-slider h1 {
+        
     }
 }
-/* 
-    -fazer resposividade -- terminar de ajeitar unidade !!
-    -configurar a transição do slider 
-*/
+
+
 
 
 

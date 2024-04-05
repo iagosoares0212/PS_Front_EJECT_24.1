@@ -4,15 +4,22 @@ main {
     gap: 130px;
 }
 
+#secoes-lado-a-lado{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
 #secao-lado-a-lado1{
     display: flex;
-    margin-left: 71px;
+    margin: 0 auto;
     width: 100%;
+    padding: 0 71px;
 }
 
 
 .texto-slider{
-    padding-right: 150px;
+    width: 50%;
 }
 
 .texto-slider h1 {
@@ -40,10 +47,12 @@ main {
 
 .slider{
     overflow:hidden;
+    width: 60%;
+    padding: 0.5rem;
 }
 
 .slides{
-    width: 500%;
+    width: 600%;
     display: flex;
 }
 
@@ -149,8 +158,13 @@ main {
 
 #secao-lado-a-lado2{
     display: flex;
-    margin-left: 71px;
     width: 100%;
+    padding: 0 71px;
+    gap: 20px;
+}
+
+.texto-slider2{
+    width: 230%;
 }
 
 .texto-slider2 h1 {
@@ -178,7 +192,6 @@ main {
 
 .slider2{
     overflow: hidden;
-    padding-left: 100px;
 }
 
 .slides2{
@@ -284,7 +297,6 @@ main {
 #radio10:checked ~ .navigation-auto2 .auto-btn10{
     background-color: #FFFFFF;
 }
-
 
 
 #secao-melhores-professores {
@@ -439,8 +451,6 @@ h5 {
     }
 }
 /* 
-    -ajeitar excesso no eixo x (div slide2)
-    -alinhar secao lado-a-lado1 com base na secao lado-a-lado2
     -fazer resposividade -- terminar de ajeitar unidade !!
     -configurar a transição do slider 
 */

@@ -429,6 +429,7 @@ h5 {
     text-align: left;
     color: #FFFFFF;
     margin-top: 30px;
+    padding-right: 21px;
 }
 
 @media screen and (max-width:768px) {

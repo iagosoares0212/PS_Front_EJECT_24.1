@@ -7,17 +7,13 @@ footer {
     background-color: #F97B22;
     color: #262626;
     padding: 20px;
-    
     bottom: 0;
     left: 0; 
-    /* max-width: 1440px; */
     padding-left: 5.2%;
     padding-right: 5.2%;
-    
-     
 }
 .footer-area {
-    margin-top: 25px;
+    margin-top: 150px;
 }
 .information-area {
     display: flex;

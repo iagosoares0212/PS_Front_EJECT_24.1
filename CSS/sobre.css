@@ -191,7 +191,6 @@ main {
 
 .slide2{
     width: 20%;
-    position: relative;
 }
 
 .slide2 img{
@@ -438,8 +437,8 @@ h5 {
     }
 }
 /* 
-    - Ajeitar responsividade
-    - Criar slider 
+    -ajeitar excesso no eixo x (div slide2)
+   -fazer resposividade
 */
 
 

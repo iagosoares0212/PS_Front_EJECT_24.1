@@ -9,6 +9,8 @@ h2 {
   font-weight: 700;
   line-height: 41px;
   margin-left: 1%;
+  margin-bottom: 4%;
+  text-align: center;
 } 
 h3 {
   text-align: center;
@@ -20,8 +22,48 @@ h4 {
   font-size: 24px;
   font-weight: 700;
 }
+h5 {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-bottom: 3%;
+  color: #fff;
+}
+.texto_aluno{
+  font-family: DM sans,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.23px;
+  width: 85%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  color: #fff;
+}
+.espaço {
+  height: 350px;
+}
+.posicionamento {
+  position: relative;
+}
+.img_descriçao_comp {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 35px;
+}
+.descriçao{
+  position: relative;
+  background: #F97B22;
+  width: 355px;
+  height: 130px;
+  border: 1px solid #F97B22;
+  border-radius: 35px;
+  z-index: 10;
+} 
 .nota_texto {
-  
   font-size: 12px;
   font-family: Montserrat, sans-serif;
   font-weight: 400;
@@ -47,7 +89,6 @@ h4 {
   margin-top: 2%;
   color: #787878;
 }
-
 .preço {
   font-family: Montserrat, sans-serif;
   font-size: 14px;
@@ -74,54 +115,50 @@ h4 {
 .carrossel {
   position: relative;
   padding: 15px;
-  max-width: 640px;
+  width: 100%;
   margin: 0 auto;
 }
-
 .galeria-wrapper {
   overflow-x: auto;
 }
-
 .left,
 .right {
   position: absolute;
   top: 0;
-  right: 0;
-  left: auto;
-  width: 24px;
-  height: 24px;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  font-size: 20px;
+  line-height: 250px;
+  width: 40px;
+  color: #fff;
+  transition: all 600ms ease-in-out;
+  background: linear-gradient(to left, transparent 0%, black 200%);
+  opacity: 0.1;
+  cursor: pointer;
   border: none;
-  border-radius: 50px;
-  background: transparent;
 }
-
 .left:hover,
 .right:hover {
-  border: 1px solid black;
-  border-radius: 50px;
+  opacity: 1;
 }
-
-.left {
-  position: absolute;
-  top: 0;
-  right: 2.1%;
+.right {
+  right: 0;
   left: auto;
-  border-radius: 50px;
-  background: transparent;
+  text-align: right;
+  background: linear-gradient(to right, transparent 0%, black 200%);
 }
-
 .galeria {
   display: flex;
   flex-flow: row nowrap;
   gap: 15px;
 }
-
 .item {
   width: 355px;
   height: 500px;
   flex-shrink: 0;
   transition: all 600ms ease-in-out;
-  opacity: 0.5;
+  opacity: 1;
 }
 .current-item {
   opacity: 1;

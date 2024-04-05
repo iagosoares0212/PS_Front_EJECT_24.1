@@ -1,5 +1,7 @@
 #secao-lado-a-lado1{
     display: flex;
+    position: absolute;
+    top: 280%;
 }
 
  .texto-slider h1 {

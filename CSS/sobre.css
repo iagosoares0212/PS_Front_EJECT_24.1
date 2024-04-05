@@ -7,7 +7,11 @@ main {
 #secao-lado-a-lado1{
     display: flex;
     margin-left: 71px;
-    width: 82%;
+    width: 100%;
+}
+
+.texto-slider{
+    margin-right: 300px;
 }
 
 .texto-slider h1 {
@@ -173,6 +177,7 @@ main {
 
 .slider2{
     overflow: hidden;
+    padding-left: 85px;
 }
 
 .slides2{

@@ -113,6 +113,7 @@ main {
 .navigation-auto{
     position: absolute;
     width: 655px;
+    margin-top: 261px;
     display: flex;
     justify-content:center;
 }  

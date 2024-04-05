@@ -17,15 +17,6 @@
     margin-left: 5.2%;
 }
 
-.linha-divisoria{
-    margin-left: 20px;
-}
-
-.logo-mani-cursos{
-    background-color: #FFFFFF;
-    cursor: pointer;
-  }
-  
   @media (max-width: 1100px){
     nav ul {
       position: absolute;

@@ -1,0 +1,468 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+#secoes-lado-a-lado{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+#secao-lado-a-lado1{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 71px;
+}
+
+
+.texto-slider{
+    width: 50%;
+}
+
+.texto-slider h1 {
+    font-family: DM Sans;
+    font-size: 48px;
+    line-height: 62.5px;
+    max-height: 58px;
+    max-width: 334px;
+}
+
+.texto-slider h1 span {
+    font-family: DM Sans;
+    font-size: 48px;
+    line-height: 62.5px;
+    max-height: 58px;
+    max-width: 334px;
+    text-decoration: underline; 
+    text-decoration-color: #F97B22;
+}
+
+.texto-slider p {
+    margin-top: 30px;
+    font-size: 18px;
+} 
+
+.slider{
+    overflow:hidden;
+    width: 60%;
+    padding: 0.5rem;
+    margin-right: 30px;
+
+}
+
+.slides{
+    width: 500%;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+    position: relative;
+}
+
+.slide img{
+    width:655px;
+    height: 297px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width:655px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #FFFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 20px;
+}
+
+.manual-btn:hover{
+    background-color: #ffffff;
+}
+
+#radio1:checked ~ .slide-first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .slide-first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .slide-first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .slide-first{
+    margin-left: -60%;
+}
+
+#radio5:checked ~ .slide-first{
+    margin-left: -80%;
+}
+
+.navigation-auto div{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 655px;
+    margin-top: 261px;
+    display: flex;
+    justify-content:center;
+}  
+
+.navigation-auto div:not(:last-child){
+    margin-right: 20px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: white;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: white;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: white;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: white;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: white;
+}
+
+#secao-lado-a-lado2{
+    display: flex;
+    width: 100%;
+    padding: 0 71px;
+    gap: 20px;
+}
+
+.texto-slider2{
+    width: 230%;
+}
+
+.texto-slider2 h1 {
+    font-family: DM Sans;
+    font-size: 48px;
+    line-height: 62.5px;
+    max-height: 58px;
+    max-width: 334px;
+}
+
+.texto-slider2 h1 span {
+    font-family: DM Sans;
+    font-size: 48px;
+    line-height: 62.5px;
+    max-height: 58px;
+    max-width: 334px;
+    text-decoration: underline; 
+    text-decoration-color: #F97B22;
+}
+
+.texto-slider2 p {
+    margin-top: 30px;
+    font-size: 18px;
+} 
+
+.slider2{
+    overflow: hidden;
+}
+
+.slides2{
+    width: 500%;
+    display: flex;
+}
+
+.slides2 input{
+    display: none;
+}
+
+.slide2{
+    width: 20%;
+    transition: 2s;
+    position: relative;
+}
+
+.slide2 img{
+    width:45vw;
+    height: 297px;
+    object-fit:cover;
+    border-radius:30px;
+}
+
+.manual-navigation2{
+    position: absolute;
+    width:45vw;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn2{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn2:not(:last-child){
+    margin-right: 20px;
+}
+
+.manual-btn2:hover{
+    background-color: #FFFFFF;
+}
+
+#radio6:checked ~ .slide-first2{
+    margin-left: 0;
+}
+
+#radio7:checked ~ .slide-first2{
+    margin-left: -20%;
+}
+
+#radio8:checked ~ .slide-first2{
+    margin-left: -40%;
+}
+
+#radio9:checked ~ .slide-first2{
+    margin-left: -60%;
+}
+
+#radio10:checked ~ .slide-first2{
+    margin-left: -80%;
+}
+
+.navigation-auto2 div{
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto2{
+    position: absolute;
+    width:45vw;
+    margin-top: 261px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto2 div:not(:last-child){
+    margin-right: 20px;
+}
+
+#radio6:checked ~ .navigation-auto2 .auto-btn6{
+    background-color: #FFFFFF;
+}
+
+#radio7:checked ~ .navigation-auto2 .auto-btn7{
+    background-color: #FFFFFF;
+}
+
+#radio8:checked ~ .navigation-auto2 .auto-btn8{
+    background-color: #FFFFFF;
+}
+
+#radio9:checked ~ .navigation-auto2 .auto-btn9{
+    background-color: #FFFFFF;
+}
+
+#radio10:checked ~ .navigation-auto2 .auto-btn10{
+    background-color: #FFFFFF;
+}
+
+
+#secao-melhores-professores {
+    height: 580px;
+    border-radius: 35px;
+    padding-top: 110px;
+    padding-left: 84px;
+    padding-right: 50px;
+    color: white;
+    background-image: url('../IMG/Rectangle 604.png');
+    background-size: cover;
+    background-position: center;
+    margin-left: 71px;
+    margin-right: 96px;
+}
+
+#secao-melhores-professores div h1 {
+    font-family: DM Sans;
+    font-weight: 700px;
+    font-size: 64px;
+    line-height: 80px;
+    width: 59%;
+}
+
+#secao-melhores-professores div h1 span {
+    font-family: DM Sans;
+    weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    text-decoration: underline; 
+    text-decoration-color: #F97B22;
+}
+
+#secao-melhores-professores div a {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F97B22;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 184.35px;
+    height: 40px;
+    outline: none;
+    border: none;
+    text-decoration: none; 
+}
+
+#secao-melhores-professores div a span {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.075em;
+    text-align: left;
+    color: #FFFF;
+    width: 126px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#secao-melhores-professores div p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+#secao-nossa-equipe {
+    padding-top: 59px;
+    background-color: #F97B22;
+    width: 100%;
+    gap: 0px;
+    border-radius: 300px 300px 0px 0px;
+    opacity: 0px;
+}
+
+#nossa-equipe-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#secao-nossa-equipe h1 {
+    max-width: 426px;
+    max-height: 71.95px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73.14px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#secao-nossa-equipe p{
+    padding-top: 29.57px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#professores {
+    margin-top: 90px;
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.professor h3{
+    max-width: 160px;
+    max-height: 22px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: white;
+}
+
+h5 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color:#FFFFFF;
+    margin-top: 5px;
+}
+
+.textinho {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 30px;
+    padding-right: 21px;
+}
+
+@media screen and (max-width:768px) {
+    .professor{
+        width: 10vw;
+    }
+}
+/* 
+    -fazer resposividade -- terminar de ajeitar unidade !!
+    -configurar a transição do slider 
+*/
+
+
+
+
+
+
+

@@ -1,0 +1,276 @@
+body {
+    background-color: black;
+    box-sizing: border-box;
+}
+/* SLIDER INICIO*/
+
+.slider {
+    top: 200px;
+    margin-left: 5.2%;
+    margin-right: 5.2%;
+    width: 1300px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 35px;
+}
+.slides {
+    width: 400%;
+    height: 550px;
+    display: flex;
+}
+.slides input {
+    display: none;
+}
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 2s;
+    
+}
+.slide img {
+    width: 100%;
+    
+}
+.manual-navigation {
+    position: absolute;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    z-index: 2;
+    
+}
+.manual-btn {
+    background-color: #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child) {
+    margin-right: 20px;
+
+}
+.manual-btn:hover {
+    background-color: #262626;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+
+
+
+
+
+
+/* SLIDER FIM*/
+
+/* CARD INICIO*/
+
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 35px;
+    z-index: 1; 
+    overflow: hidden;
+}
+.img-text {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 67%;
+    transform: translate(-50%,-50%);
+    color: #FFF;
+    z-index: 2;
+    
+}
+.text1 {
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+
+
+}
+.text1 span {
+    border-bottom: 3px solid #F97B22;
+}
+.text2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    
+}
+/* CARD FIM*/
+
+
+/* CARROSEL INICIO*/
+
+.pop-course {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 75px;
+}
+.pop-course h1 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 80px;
+}
+.wrapper {
+    
+    width: 100%;
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+
+}
+.wrapper .carrossel {
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: column;
+    
+    grid-auto-columns: calc((100% / 3) - 12px);
+    gap: 40px;
+    overflow: hidden;
+    
+}
+.btn-area {
+    position: absolute;
+    right: 9%;
+    
+    top: 840px;
+    transform: translateY(-100%);
+}
+.btn-area .left-btn,
+.btn-area .right-btn {
+    border: none;
+    background-color: #FFF;
+    padding: 8px;
+
+}
+.btn-area .left-btn:hover,
+.btn-area .right-btn:hover {
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.card {
+    width: 350px;
+    
+}
+.card img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.tittle-course {
+    display: flex;
+    justify-content: space-between;
+
+}
+.nota {
+    display: flex;
+    margin: 7px;
+}
+.nota img {
+    margin-right: 5px;
+    width: 14px;
+    height: 14px;
+}
+.nota p {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #262626;
+}
+.card h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #262626;
+}
+.card h4 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 7px;
+}
+.card p {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #787878;
+    
+}
+.more {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.price h5 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #262626;
+}
+.price h6 {
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #787878;
+}
+.more .card-btn {
+    text-decoration: none;
+    background-color: #F97B22;
+    color: #FFFFFF;
+    padding: 12px;
+    border-radius: 90px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+@media screen and (max-width: 1075px) {
+    .wrapper .carrossel {
+        grid-auto-columns: calc(50% - 20px); /* Ajuste para dois cards */
+        gap: 25px; /* Espaçamento entre os cards */
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .wrapper .carrossel {
+        grid-auto-columns: 100%;
+
+    }
+}
+

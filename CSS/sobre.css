@@ -450,6 +450,124 @@ h5 {
     padding-right: 21px;
 }
 
+/* @media screen and (max-width: 768px) {
+    .slider,
+    .slider2 {
+      width: 100%;
+      padding: 0;
+      margin-right: 0;
+    }
+  
+    .texto-slider,
+    .texto-slider2 {
+      width: 100%;
+      padding: 0 20px;
+    }
+  
+    .slide img,
+    .slide2 img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+    }
+  
+    .navigation-auto,
+    .navigation-auto2 {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .navigation-auto div,
+    .navigation-auto2 div {
+      border: 2px solid white;
+      padding: 5px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 1s;
+    }
+  
+    .manual-navigation,
+    .manual-navigation2 {
+      position: relative;
+      width: 100%;
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .manual-btn,
+    .manual-btn2 {
+      border: 2px solid white;
+      padding: 5px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 1s;
+    }
+  
+    #secao-melhores-professores {
+      padding: 40px;
+    }
+  
+    #secao-melhores-professores div h1 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    #secao-melhores-professores div p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    #secao-melhores-professores div a {
+      width: 150px;
+      height: 30px;
+    }
+  
+    #secao-nossa-equipe h1 {
+      font-size: 40px;
+      line-height: 48px;
+      text-align: center;
+    }
+  
+    #secao-nossa-equipe p {
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+    }
+  
+    #professores {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: 0;
+    }
+  
+    .professor {
+      width: 100%;
+      max-width: 250px;
+      margin: 20px;
+    }
+  
+    .professor img {
+      width: 100%;
+      max-width: 250px;
+    }
+  
+    .professor h3 {
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+    }
+  
+    h5.textinho {
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      margin-top: 15px;
+      padding-right: 0;
+    }
+  } */
+  
+
 @media screen and (max-width:360px){
     
     main{
@@ -464,6 +582,7 @@ h5 {
         top: 150px;
         right: 50px;
     }
+
 
     .texto-slider h1{
         position: absolute;
@@ -509,7 +628,7 @@ h5 {
 
     #secao-melhores-professores a{
         position: absolute;
-        top: 1450px;
+        top: 450px;
         right: 65px;
         width: 177px;
     }

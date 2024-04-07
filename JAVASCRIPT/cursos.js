@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
    
     const carrossel = document.querySelector(".carrossel");
     if (carrossel) { 
-        const firstCarWidth = carrossel.querySelector(".card").offsetWidth + 120;
+        const firstCarWidth = carrossel.querySelector(".card").offsetWidth + 130;
         const arrowBtns = document.querySelectorAll(".wrapper button");
 
         arrowBtns.forEach(btn => {

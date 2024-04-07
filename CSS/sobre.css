@@ -326,7 +326,7 @@ main {
 
 #secao-melhores-professores div h1 span {
     font-family: DM Sans;
-    weight: 700;
+    font-weight: 700;
     font-size: 64px;
     line-height: 80px;
     text-decoration: underline; 

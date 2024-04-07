@@ -8,9 +8,9 @@ controls_aluno.forEach((control_aluno) => {
     isLeft_aluno = e.target.classList.contains(".left_aluno");
 
     if (isLeft_aluno) {
-      currentItem_aluno -= 4;
+      currentItem_aluno -= 1;
     } else {
-      currentItem_aluno += 4;
+      currentItem_aluno += 1;
     }
 
     if (currentItem_aluno >= maxItems_aluno) {

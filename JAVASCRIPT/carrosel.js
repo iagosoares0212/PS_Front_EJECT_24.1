@@ -8,9 +8,9 @@ controls.forEach((control) => {
     isLeft = e.target.classList.contains("left");
 
     if (isLeft) {
-      currentItem -= 2;
+      currentItem -= 1;
     } else {
-      currentItem += 2;
+      currentItem += 1;
     }
 
     if (currentItem >= maxItems) {

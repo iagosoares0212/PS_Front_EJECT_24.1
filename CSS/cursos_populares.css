@@ -116,8 +116,8 @@ h2 {
   .left {
     position: absolute;
     top: -2%;
-    right: 2.1%;
-    left: auto;
+    left: 0;
+    right: auto;
     border-radius: 50px;
     background: transparent;
   }
@@ -133,7 +133,7 @@ h2 {
     height: 500px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
-    opacity: 1;
+    opacity: 0.5;
   }
   .current-item {
     opacity: 1;
@@ -151,9 +151,16 @@ h2 {
       top: 1368px;
       left: 43px;
       margin: 0;
-      width: 10vw;
+      width: 89vw;
   }
-  
+  h2 {
+    font-family: DM sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-left: 1%;
+    margin-bottom: 4%;
+} 
   }
   @media screen and (max-width:360px) {
     .cursos_pop {

@@ -465,6 +465,10 @@ h5 {
         overflow: hidden;
     }
 
+    .slide img{
+        width: 500%;
+    }
+
     .texto-slider h1 {
         position: absolute;
         left: 20px;
@@ -509,7 +513,6 @@ h5 {
         position: absolute;
         top: 450px;
         right: 65px;
-
     }
 
     #secao-nossa-equipe {
@@ -518,6 +521,8 @@ h5 {
         width: 50%;
         right: 150px;
     }
+
+
 
     footer {
         position: absolute;

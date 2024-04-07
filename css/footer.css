@@ -1,12 +1,19 @@
 
+<<<<<<< HEAD
 
 body {
     margin: 0;
+=======
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+>>>>>>> main
 }
 footer {
     background-color: #F97B22;
     color: #262626;
     padding: 20px;
+<<<<<<< HEAD
     bottom: 0;
     left: 0; 
     padding-left: 5.2%;
@@ -14,6 +21,18 @@ footer {
 }
 .footer-area {
     margin-top: 150px;
+=======
+    
+    bottom: 0;
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+    
+     
+}
+
+.footer-area {
+    margin-top: 25px;
+>>>>>>> main
 }
 .information-area {
     display: flex;
@@ -67,4 +86,8 @@ footer {
        
         margin-top: 20px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main

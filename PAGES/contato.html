@@ -56,10 +56,15 @@
                     veniam.
                 </p>
                 <form method="post">
-                    <input class="assunto-form" type="text" placeholder="Assunto" required/>
+                    <select id="opcoes" name="opcaoSelecionada">
+                        <option value="Assunto">Assunto</option>
+                        <option value="opcao2">Ajuda</option>
+                        <option value="opcao3">Dúvidas</option> 
+                      </select>
+                    
                     <span>
-                        <input type="text" placeholder="Nome" required/>
-                        <input type="email" placeholder="Email" required/>
+                        <input class="name-form" type="text" placeholder="Nome" required/>
+                        <input class="email-form" type="email" placeholder="Email" required/>
                     </span>
                     <input class="mensagem-form" type="text" placeholder="Mensagem"/>
                     <input type="submit" placeholder="Enviar"/>

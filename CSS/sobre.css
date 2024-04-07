@@ -370,6 +370,10 @@ main {
     text-align: left;
 }
 
+.mini_carrossel{
+    display: none;
+}
+
 #secao-nossa-equipe {
     padding-top: 59px;
     background-color: #F97B22;
@@ -566,10 +570,17 @@ h5 {
     } 
 
     #secao-nossa-equipe {
+        display: none;
+    }
+
+    .mini_carrossel_mobile{
+        display: flex;
         position: absolute;
-        top: 2100px;
-        width: 100%;
-        right: 150px;
+        top: 360px;
+        right: 0%;
+        width: 100vw;
+        margin-top: 5;
+      }
     }
 
     footer {

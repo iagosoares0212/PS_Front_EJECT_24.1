@@ -32,11 +32,7 @@
     color: #5D5E59;
     font-weight: 400;
   }
-  a:hover {
-    color: #FFCDAC;
-    background: #FF7000;
-    padding: 2px;
-  }
+  
   nav ul {
     position: absolute;
     top: 0.5%;

@@ -565,11 +565,20 @@ h5 {
 
     .mini_carrossel_mobile{
         display: flex;
-        position: absolute;
         top: 360px;
         right: 0%;
         width: 100vw;
         margin-top: 5;
     }
+
+    .pos{
+        position: relative;
+    }
+
+    footer{
+        position: absolute;
+        top: 1900px;
+    }
+
 }
 

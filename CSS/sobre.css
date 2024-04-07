@@ -451,23 +451,82 @@ h5 {
 }
 
 @media screen and (max-width:360px){
-    .secao-lado-a-lado1{
+    
+    main{
         display: flex;
         flex-direction: column;
-    }
-
-    .texto-slider h1{
-        order: 1;
+        gap: 450px;
+    
     }
 
     .slider{
-        order: 2;
+        position: relative;
+        top: 150px;
+        right: 50px;
+    }
+
+    .texto-slider h1{
+        position: absolute;
+        left: 20px;
+        width: 177px;
     }
 
     .texto-slider p{
-        order: 3;
+        position: absolute; 
+        top: 570px;
+        left: 20px;
     }
 
+    .slider2{
+        position: absolute; 
+        top: 900px;
+        left: 20px;
+    }
+
+    .texto-slider2 h1{
+        position: absolute; 
+        top: 740px;
+    }
+
+    .texto-slider2 p{
+        position: absolute; 
+        top: 1230px;
+        left: 20px;
+    }
+
+    .texto-slider2 h1{
+        position: absolute;
+        left: 20px;
+        width: 177px;
+    }
+
+    #secao-melhores-professores{
+        position: absolute;
+        top: 1450px;
+        right: 65px;
+        width: 177px;
+    }
+
+    #secao-melhores-professores a{
+        position: absolute;
+        top: 1450px;
+        right: 65px;
+        width: 177px;
+    }
+
+    #secao-nossa-equipe{
+        position: absolute;
+        top: 2100px;
+        width: 50%;
+        right: 150px;
+    }
+
+    footer{
+        position: absolute;
+        top: 3400px;
+        left: 20px;
+        width: 177px;
+    }
 
 }
     

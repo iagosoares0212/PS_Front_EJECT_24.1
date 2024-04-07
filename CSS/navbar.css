@@ -6,61 +6,22 @@
 body {
   background: #FFF ;
   
-}
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
-header {
-  display: flex;
-  height: 100px;
-  width: 70%;
-  margin-left: 5.2%;
-
-}
-.img_logo {
-  width: 100%;
-  margin-top: 25px;
-
-}
-.linha_topo {
-  margin: 0 12px;
-}
-a:link,
-a:visited,
-a:active {
-  color: #5D5E59;
-  font-weight: 400;
-}
-a:hover {
-  color: #FFCDAC;
-  background: #FF7000;
-  padding: 2px;
-}
-nav ul {
-  position: absolute;
-  top: 0.5%;
-  left: 19%;
-  float: right;
-  list-style: none;
-}
-nav ul li{
-  float: left;
-}
-nav ul li a:link{
-  display: block;
-  margin: 35px 10px 1px 15px;
-  line-height: 19.5px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 400;
-}
-.clicar {
-  cursor: pointer;
-}
-
-@media (max-width: 1100px){
+  }
+  .img_logo {
+    width: 100%;
+    margin-top: 25px;
+  
+  }
+  .linha_topo {
+    margin: 0 12px;
+  }
+  a:link,
+  a:visited,
+  a:active {
+    color: #5D5E59;
+    font-weight: 400;
+  }
+  
   nav ul {
     position: absolute;
     top: 0.5%;

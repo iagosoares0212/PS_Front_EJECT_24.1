@@ -8,7 +8,7 @@
     top: 2200px;
     width: 100%;
 }
-  h2 {
+  h2.aprova_h2 {
     font-family: DM sans;
     font-size: 48px;
     font-weight: 700;
@@ -182,3 +182,10 @@
   }
     
   }
+@media screen and (max-width:360px) {
+  .aluno_aprova {
+    position: absolute;
+    top: 2050px;
+    width: 100%;
+}
+}

@@ -35,6 +35,20 @@ footer {
     margin-top: 25px;
     
 }
+@media screen and (max-width:360px) {
+    
+    footer {
+        position: absolute;
+        background-color: #F97B22;
+        color: #262626;
+        padding: 20px;
+        top: 2700px;
+        left: 0;
+        right: 0;
+        padding-left: 5.2%;
+        padding-right: 5.2%;
+    }
+    }
 @media screen and (max-width: 850px) {
     footer {
         position: absolute;

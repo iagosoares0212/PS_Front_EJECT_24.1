@@ -188,3 +188,14 @@
     border-radius: 60px;
 }
 }
+@media screen and (max-width:360px) {
+    #secao-lado-a-lado1{
+        position: absolute;
+        top: 1322px;
+        display: flex;
+        margin: 5.2%;
+        width: 90%;
+    }
+
+
+}

@@ -64,7 +64,7 @@
         border: none;
         border-radius: 50px;
         background: #F97B22;
-        z-index: 100;
+        z-index: 9;
       }
       
       .arrow_left_esquerda:hover,
@@ -81,7 +81,7 @@
         border-radius: 50px;
         background: transparent;
         background: #F97B22;
-        z-index: 100;
+        z-index: 9;
       }
       
       .gallery_esquerda {
@@ -111,4 +111,15 @@
       }
       
       
+}
+@media screen and (max-width:360px){
+    .container_esquerda {
+        display: flex;
+        position: absolute;
+        top: 360px;
+        right: 0%;
+       
+        width: 100vw;
+        margin-top: 5;
+      }
 }

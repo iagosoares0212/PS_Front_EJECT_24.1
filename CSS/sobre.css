@@ -17,7 +17,6 @@ main {
     gap: 20px;
 }
 
-
 .texto-slider{
     width: 50%;
 }
@@ -505,19 +504,14 @@ h5 {
     .texto-slider2 h1 {
         position: absolute;
         top: 680px;
+        left: 20px;
+        width: 177px;
     }
-    
 
     .texto-slider2 p {
         position: absolute;
         top: 1200px;
         left: 20px;
-    }
-
-    .texto-slider2 h1 {
-        position: absolute;
-        left: 20px;
-        width: 177px;
     }
 
     #secao-melhores-professores {
@@ -529,14 +523,11 @@ h5 {
         left: -50px;
     }
 
-
     #secao-melhores-professores a {
         position: absolute;
         top: 340px;
         right: 100px;
-
     }
-
 
     #secao-melhores-professores div .tit-best-profs{
         font-family: DM Sans;
@@ -554,7 +545,7 @@ h5 {
         font-size: 15px;
     }
 
-     #secao-melhores-professores div h1 span{
+    #secao-melhores-professores div h1 span{
         font-family: DM Sans;
         font-size: 30px;
         line-height: 20px;
@@ -566,7 +557,6 @@ h5 {
         font-size: 30px;
         line-height: 30px;
         width: 50%; 
-
     } 
 
     #secao-nossa-equipe {
@@ -580,11 +570,10 @@ h5 {
         right: 0%;
         width: 100vw;
         margin-top: 5;
-      }
     }
+}
 
-    footer {
-        position: absolute;
-        top: 3400px;
-    }
+footer {
+    position: absolute;
+    top: 3400px;
 }

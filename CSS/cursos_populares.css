@@ -133,7 +133,7 @@ h2 {
     height: 500px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
-    opacity: 0.5;
+    opacity: 1;
   }
   .current-item {
     opacity: 1;
@@ -144,4 +144,13 @@ h2 {
   .galeria-wrapper {
     -ms-overflow-style: none; 
     scrollbar-width: none; 
+  }
+  @media screen and (max-width:850px) {
+    .cursos_pop {
+      position: absolute;
+      top: 1368px;
+      margin: 5.2%;
+      width: 93.5%;
+  }
+  
   }

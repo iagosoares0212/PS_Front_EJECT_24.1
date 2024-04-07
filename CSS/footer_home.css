@@ -1,14 +1,12 @@
 
-
-body {
-    margin: 0;
-}
 footer {
+    position: absolute;
     background-color: #F97B22;
     color: #262626;
     padding: 20px;
-    bottom: 0;
-    left: 0; 
+    top: 3000px;
+    left: 0;
+    right: 0;
     padding-left: 5.2%;
     padding-right: 5.2%;
 }
@@ -37,7 +35,19 @@ footer {
     margin-top: 25px;
     
 }
-
+@media screen and (max-width: 850px) {
+    footer {
+        position: absolute;
+        background-color: #F97B22;
+        color: #262626;
+        padding: 20px;
+        top: 3300px;
+        left: 0;
+        right: 0;
+        padding-left: 5.2%;
+        padding-right: 5.2%;
+    }
+}
 @media screen and (max-width: 550px) {
     footer {
         padding-left: 5.2%;

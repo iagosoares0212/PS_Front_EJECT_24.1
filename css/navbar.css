@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   body {
-    background: #FFF ;
+    background: #FFF url(../IMG/bolas.svg) no-repeat;
     
   }
   .container {

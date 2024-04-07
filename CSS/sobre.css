@@ -12,9 +12,9 @@ main {
 
 #secao-lado-a-lado1{
     display: flex;
-    margin: 0 auto;
+    margin: 5.2%;
     width: 100%;
-    padding: 0 71px;
+    border: 1px solid salmon;
 }
 
 
@@ -328,7 +328,7 @@ main {
 
 #secao-melhores-professores div h1 span {
     font-family: DM Sans;
-    weight: 700;
+    font-weight: 700;
     font-size: 64px;
     line-height: 80px;
     text-decoration: underline; 

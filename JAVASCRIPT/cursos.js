@@ -113,3 +113,19 @@ document.addEventListener('DOMContentLoaded', function() {
     carrossel.addEventListener("mousemove", dragging)
     document.addEventListener("mouseup", dragStop)
 });
+
+window.addEventListener('DOMContentLoaded', (event) => {
+   
+    const carrossel = document.querySelector(".carrossel-student");
+    if (carrossel) { 
+        const firstCarWidth = carrossel.querySelector(".card-student").offsetWidth + 60;
+        const arrowBtns = document.querySelectorAll(".wrapper-student #right5, .wrapper-student #left5");
+
+        arrowBtns.forEach(btn => {
+            btn.addEventListener("click", () => {     
+                carrossel.scrollLeft += btn.id === "left5" ? -firstCarWidth : firstCarWidth ;
+            });
+        });
+           
+    }
+});

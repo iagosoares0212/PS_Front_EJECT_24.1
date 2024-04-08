@@ -2,6 +2,8 @@
 .pop-course,
 .all-course {
     max-width: 1300px;
+    width: 100%;
+    
    
     
 }
@@ -13,6 +15,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .slider-section {
@@ -20,8 +23,9 @@ main {
 }
 .slider {
     top: 200px;
-    
     max-width: 1300px;
+    
+    
     height: 550px;
     overflow: hidden;
     border-radius: 35px;
@@ -158,7 +162,7 @@ main {
 
 }
 .carrossel {
-    transition: transform 0.5s ease; /* Adicione uma transição de transformação */
+    transition: transform 0.5s ease; 
 }
 .wrapper-second,
 .wrapper-third,
@@ -174,7 +178,7 @@ main {
     display: grid;
     grid-auto-flow: column;
     
-    grid-auto-columns: calc((100% / 3) - 12px);
+    grid-auto-columns: calc((100% / 3) - 11px);
     gap: 53px;
     overflow: hidden;
     
@@ -306,7 +310,7 @@ main {
 .all-course .search-bar {
     position: absolute;
     top: 1420px;
-    left: 1150px;
+    left: 70%;
     width: 195px;
     height: 31px;
     border:solid 1px;
@@ -490,6 +494,13 @@ main {
     border-radius: 50%;
 
 }
+.left-btn5:hover,
+.right-btn5:hover {
+    border: 1px solid #000;
+    border-radius: 50%;
+
+}
+
 .load-more {
     text-decoration: none;
     width: 20%;
@@ -526,6 +537,7 @@ main {
     width: 100%;
     cursor: grap;
     margin-bottom: 150px;
+    overflow: hidden;
 }
 .wrapper-student .carrossel-student {
     list-style-type: none;
@@ -598,61 +610,338 @@ main {
     font-weight: 400;
     font-family: "DM Sans", sans-serif;
     color: #FFF;
-    
     margin-top: 12px;
 }
 
+    
 
-@media screen and (max-width: 950px) {
-    .slider {
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .slider-section,
+    .all-course {
+        padding-left: 5.2%;
+        padding-right: 5.2%;
+        
+   
+    
+}
+.pop-course {
+    
+   
+}
+.pop-course h1,
+.all-course h1 {
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 25px;
+
+}
+.pop-course {
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+.wrapper {
+    width: 110%;
+}
+.wrapper .carrossel {
+    grid-auto-flow: column;
+    
+    grid-auto-columns: 100%;
+    gap: 20px;
+    overflow: hidden;
+    
+}
+.all-course .search-bar {
+    position: absolute;
+    top: 1120px;
+    left: 77%;
+    width: 75px;
+    height: 31px;
+    border: solid 1px;
+    border-radius: 15px;
+    
+}
+.all-course h1 {
+    margin-right: 30px;
+}
+
+.search-bar img {
+    display: none;
+}
+.left-btn,
+.right-btn,
+.left-btn2,
+.right-btn2,
+.btn-test1,
+.btn-test2,
+.left-btn4,
+.right-btn4,
+.left-btn5,
+.right-btn5 {
+    background-color: #F97B22;
+    border-radius: 50%;
+    color: #FFF;
+}
+.left-btn {
+    position: absolute;
+    right: 92%;
+    top: 770px;
+    transform: translateY(-100%);
+}
+.right-btn {
+    position: absolute;
+    right: 0%;
+    top: 770px;
+    transform: translateY(-100%);
+}
+
+
+
+
+.pop-course h1 span {
+    text-decoration: underline;
+    text-decoration-color: #F97B22;
+    
+}
+.card{
+ 
+}
+
+.card h2 {
+    font-size: 19px;
+    line-height: 27px;
+}
+
+.card h4 {
+    font: 11px;
+    line-height: 16px;
+}
+.card-btn {
+    text-decoration: none;
+    background-color: #F97B22;
+    color: #FFFFFF;
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 90px;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.all-course h3 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.carrossel-second,
+.carrossel-third,
+.carrossel-fourth {
+  
+    
+    grid-auto-columns: 100%;
+    
+}
+
+
+.wrapper-second,
+.wrapper-third,
+.wrapper-fourth{
+    
+    padding-left: 12%;
+    width: 100%;
+  
+    
+}
+
+.slider {
         width: 100%; 
-        height: 100%;
+        height: 310px;
      
     }
-    .slide img {
+.slide img {
         height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
-    .slides {
-        width: 400%; /* Mantenha a largura das slides */
+.slides {
+        width: 400%; 
     }
-    .slide {
-        width: 25%; /* Mantenha a largura das slides */
+.slide {        
+        width: 25%; 
     }
-    .manual-navigation {
-        width: 100%; /* Ajuste a largura para ocupar 100% da largura da tela */
-        margin-top: -20px; /* Ajuste a margem superior conforme necessário */
+.manual-navigation {
+        width: 100%; 
+        margin-top:-275px; 
     }
-    .manual-btn:not(:last-child) {
-        margin-right: 10px; /* Ajuste a margem entre os botões de navegação */
+.manual-btn:not(:last-child) {
+        margin-right: 10px; 
     }
-    .img-text {
+.img-text {
         position: absolute;
         text-align: left;
-        top: 50%;
-        left: 45%;
+        top: 25%;
+        left: 40%;
         transform: translate(-50%,-50%);
         color: #FFF;
         z-index: 2;
         
     }
-    .text1 {
-        font-size: 35px;
-        line-height: 40px;
+.text1 {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 700;
     }
-    .wrapper .carrossel {
-        grid-auto-columns: calc((100% / 2) - 9px);
-
+.text2 {
+        font-size: 10px;
+        line-height: 17px;
+        font-weight: 400;
     }
-    .all-course .search-bar {
+    .left-btn2 {
         position: absolute;
-        top: 1468px;
-        left: 80%;
-        width: 195px;
-        height: 31px;
-        border: solid 1px;
-        border-radius: 15px;
+        right: 79.5%;
+        top: 1335px;
+        transform: translateY(-100%);
+    }
+    .right-btn2 {
+        position: absolute;
+        right: 8.5%;
+        top: 1335px;
+        transform: translateY(-100%);
 
     }
+
+    .btn-test1 {
+        position: absolute;
+        right: 79.5%;
+        top: 1750px;
+        transform: translateY(-100%);
+    }
+    .btn-test2 {
+        position: absolute;
+        right: 8.5%;
+        top: 1750px;
+        transform: translateY(-100%);
+    }
+
+    .left-btn4 {
+        position: absolute;
+        right: 79.5%;
+        top: 2180px;
+        transform: translateY(-100%);
+    }
+    .right-btn4 {
+        position: absolute;
+        right: 8.5%;
+        top: 2180px;
+        transform: translateY(-100%);
+    }
+
+    .left-btn5,
+    .right-btn5 {
+        border: none;
+        padding: 8px;
+
+    }
+    .left-btn5 {
+        position: absolute;
+        right: 88.5%;
+        top: 2710px;
+        transform: translateY(-100%);
+        z-index: 2;
+    }
+    .right-btn5 {
+        position: absolute;
+        right: 3.5%;
+        top: 2710px;
+        transform: translateY(-100%);
+        z-index: 2;
+    }
+
+    .load-more {
+        display: none;
+    }
+    .student {
+        margin-top: 100px;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .student h1 {
+        font-size: 25px;
+        margin-bottom: 35px;
+        line-height: 19px;
+        font-weight: 600;
+        font-family: "Montsserrat", sans-serif;
+    }
+    .wrapper-student {
+        width: 100%;
+        cursor: grap;
+        margin-bottom: 150px;
+        overflow: hidden;
+    }
+
+    .carrossel-student {
+        grid-auto-columns: calc((100% / 2) - 9px);
+    }
+    
+    .card-student {
+        width: 147px;
+        height: 189px;
+        gap: 20px;
+    }
+    
+    .card-student img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .overlay-student {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding-left: 3%;
+        width: 100%;
+        height: 70px;
+        background-color: #F97B22;
+        border-radius: 20px;
+
+    }
+    .overlay-student h4 {
+        font-size: 13px;
+        line-height: 19px;
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        color: #FFF;
+        margin-top: 5px;
+    }
+    .overlay-student h6 {
+        font-size: 7px;
+        line-height: 12px;
+        font-weight: 400;
+        font-family: "DM Sans", sans-serif;
+        color: #FFF;
+    }
+    .overlay-student p {
+        font-size: 6px;
+        line-height: 11px;
+        font-weight: 400;
+        font-family: "DM Sans", sans-serif;
+        color: #FFF;
+        margin-top: 2px;
+    }
+    
 }
+
 
 

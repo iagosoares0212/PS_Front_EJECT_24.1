@@ -369,7 +369,7 @@ main {
     text-align: left;
 }
 
-.mini_carrossel{
+.mini_carrossel-mobile{
     display: none;
 }
 
@@ -452,7 +452,7 @@ h5 {
     padding-right: 21px;
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:550px) {
     main {
         display: flex;
         flex-direction: column;
@@ -561,14 +561,6 @@ h5 {
 
     #secao-nossa-equipe {
         display: none;
-    }
-
-    .mini_carrossel_mobile{
-        display: flex;
-        top: 360px;
-        right: 0%;
-        width: 100vw;
-        margin-top: 5;
     }
 
     .pos{
